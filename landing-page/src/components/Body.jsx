@@ -1,6 +1,9 @@
+import Circles from "./Circles";
+
 const Body = () => {
   return (
     <body className="flex flex-col space-y-8">
+      <Circles />
       <div className="flex flex-col space-y-2 items-center justify-center text-7xl text-black">
         <h1 className=" text-7xl text-black text-center mb-8 ">
           Make short videos from <br /> long ones instantly

@@ -1,8 +1,8 @@
-import React from "react";
+import './App.css'
 
 function Navbar(){
     return(
-        <h1>it goes here</h1>
+        <h1 className='text-white'>it goes here</h1>
     )
 
 }

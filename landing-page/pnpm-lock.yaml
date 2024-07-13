@@ -39,12 +39,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.7
         version: 0.4.8(eslint@8.57.0)
-<<<<<<< HEAD
-=======
       postcss:
         specifier: ^8.4.39
         version: 8.4.39
->>>>>>> origin/nis
       tailwindcss:
         specifier: ^3.4.4
         version: 3.4.4
@@ -855,12 +852,9 @@ packages:
     resolution: {integrity: sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==}
     engines: {node: '>=14'}
 
-<<<<<<< HEAD
-=======
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
->>>>>>> origin/nis
   fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
@@ -1208,13 +1202,10 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-<<<<<<< HEAD
-=======
   normalize-range@0.1.2:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
 
->>>>>>> origin/nis
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
@@ -2585,11 +2576,8 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-<<<<<<< HEAD
-=======
   fraction.js@4.3.7: {}
 
->>>>>>> origin/nis
   fs.realpath@1.0.0: {}
 
   fsevents@2.3.3:
@@ -2914,11 +2902,8 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-<<<<<<< HEAD
-=======
   normalize-range@0.1.2: {}
 
->>>>>>> origin/nis
   object-assign@4.1.1: {}
 
   object-hash@3.0.0: {}

@@ -7,7 +7,9 @@ function FooterMain() {
           Make VIRAL short clips with captions, templates, emojis, & more for
         </p>
       </div>
-      <Brands />
+      <div className="pt-32">
+        <Brands />
+      </div>
     </div>
   );
 }

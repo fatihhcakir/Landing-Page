@@ -1,5 +1,4 @@
 
-import React from  "react"
 // eslint-disable-next-line react/prop-types
 function Buttons({title,title2}) {
   return (

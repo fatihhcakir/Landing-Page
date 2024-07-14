@@ -1,3 +1,4 @@
+import Buttons from "./Buttons";
 import Circles from "./Circles";
 
 const Body = () => {
@@ -17,12 +18,10 @@ const Body = () => {
       </div>
 
       <div className="flex items-center justify-center space-x-4">
-        <div className="bg-transparent border border-black transition	 text-black px-6 py-2 rounded-full text-sm font-medium hover:bg-indigo-400">
-          <button>Start for free</button>
-        </div>
-        <div className="bg-black transition text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-indigo-400">
-          <button>Play demo Video</button>
-        </div>
+          <Buttons
+           title="Start for free"   
+           title2="Play demo video"
+           />
       </div>
       <div className="flex items-center justify-center space-x-4 text-gray-600">
         <p>Get 75 mins of upload for free every month</p>

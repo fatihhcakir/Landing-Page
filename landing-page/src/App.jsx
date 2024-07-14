@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Body from "./components/Body";
 import FooterMain from "./components/FooterMain";
 import HowItWorks from "./components/HowItWorks";
+import ThirdPage from "./components/ThirdPage.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Body />
         <FooterMain />
         <HowItWorks/>
+        <ThirdPage/>
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import LoginButtons from "./LoginButtons";
+import Buttons from "./Buttons";
 import Logo from "./Logo";
 import Nav from "./Nav";
 const Navbar = () => {
@@ -7,7 +7,10 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         <Logo />
         <Nav />
-        <LoginButtons />;
+        <Buttons
+            title="LOGIN"
+            title2="SIGN UP"
+         />;
       </div>
     </header>
   );

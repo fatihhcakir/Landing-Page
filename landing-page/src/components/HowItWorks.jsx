@@ -1,8 +1,7 @@
-//import React from "react";
 import Box from "./Box";
 import uploadImage from "/upload.jpg";
 import textImage from "/text.png";
-import socialMedia from "/socialmedia.jpg"
+import socialMedia from "/socialmedia.jpg";
 import "../assets/App.css";
 
 const HowItWorks = () => {
@@ -12,7 +11,7 @@ const HowItWorks = () => {
       <p className="mt-2 text-center text-gray-500">
         Video AI automatically selects, edits & captions top moments from your videos.
       </p>
-      <div className="flex justify-center space-x-4 mt-10 pt-8 space-x-16">
+      <div className="flex flex-col lg:flex-row lg:space-x-16 space-y-4 lg:space-y-0 mt-10 pt-8">
         <Box
           imageSrc={uploadImage}
           title="Upload a image"

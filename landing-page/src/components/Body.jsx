@@ -9,16 +9,13 @@ const Body = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch(
-        import.meta.env.VITE_BACKEND_URL + "/email",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email }),
-        }
-      );
+      const response = await fetch(import.meta.env.VITE_BACKEND_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
 
       if (response.ok) {
         console.log("Email successfully sent to the backend!");
